@@ -3,32 +3,39 @@ This will be where my ASCII diagrams will be set until made into PNG's to be put
 
 Diagram 1: Four loops
 
-AI Model/Agent
-       |
-       v
-+------------------+
-|  Loop 1: Event   |
-|  Creation        |
-+------------------+
-          |
-          v
-+------------------+
-|  Loop 2: Proof   |
-|  Generation      |
-| (hash + sign)    |
-+------------------+
-          |
-          v
-+-----------------------------+
-|  Loop 3: Kaspa Anchor      |
-|  (DAG inclusion + time)     |
-+-----------------------------+
-          |
-          v
-+-----------------------------------------+
-| Loop 4: Verification & Lineage Rebuild |
-| (Verifier <--> Off-chain Storage)       |
-+-----------------------------------------+
+                    +----------------------+
+                    |    AI Model / Agent  |
+                    +----------+-----------+
+                               |
+                               v
+                      +------------------+
+                      | Loop 1: Event    |
+                      |   Creation       |
+                      +---------+--------+
+                                |
+                                v
+                      +------------------+
+                      | Loop 2: Proof    |
+                      |  Generation      |
+                      | (hash + sign)    |
+                      +---------+--------+
+                                |
+                                v
+                  +-----------------------------+
+                  |  Loop 3: Kaspa Anchor       |
+                  |  (DAG inclusion + time)     |
+                  +---------+-------------------+
+                            |
+                            v
+        +------------------------------------------------+
+        |        Loop 4: Verification & Lineage Rebuild  |
+        |                                                |
+        |    +----------------------+     +------------+ |
+        |    |      Verifier        |<--->| Off-chain  | |
+        |    |  (rebuilds lineage)  |     | Storage    | |
+        |    +----------------------+     +------------+ |
+        +------------------------------------------------+
+
 
 
 
@@ -103,17 +110,18 @@ Diagram 5: On-Chain vs Off-Chain Boundary Diagram
 Diagram 6: Actor roles diagram
 
 +-------------+        +---------------+         +----------------+
-|  AI Model   | -----> | Proof Engine  | ----->  | Kaspa Node     |
+|  AI Model   | -----> |  Proof Engine | ----->  |   Kaspa Node   |
 +-------------+        +---------------+         +----------------+
-       |                       |                        |
-       |                       v                        |
-       |            +------------------+                |
-       |            | Off-chain Store  | <--------------+
-       |            +------------------+                |
+       |                       |                         |
+       |                       v                         |
+       |             +------------------+                |
+       |             | Off-chain Store  | <--------------+
+       |             +------------------+
        |                       ^
        |                       |
        +-----------------------+
                (Verifier)
+
 
 Diagram 7: Threat Model Map
 
