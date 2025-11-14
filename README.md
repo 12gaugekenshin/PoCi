@@ -5,7 +5,8 @@ Please read POCIv1d1, as this is the 50+ thesis paper on Proof Of Compute Integr
 
 A shorter less technical not as professional summary is on README.MD
 
-POCI_demo 's are running working scripts to test locally to see the work. v1 is single model, v2 is mixed bad and good proofs, v3 two models in comparision, v4 single agent 100 event some bad proofs, v5 two model 100 event one honest and one semi-honest, v6 1000 events - one honest and one semi honest.
+POCI_demo 's are running working scripts to test locally to see the work. v1 is single model, v2 is mixed bad and good proofs, v3 two models in comparision, v4 single agent 100 event some bad proofs, v5 two model 100 event one honest and one semi-honest, v6 1000 events - one honest and one semi honest. 
+To run; python must be installed. CMD, point CMD to wherever file is, type python poci_demov1.py , this will run the script if pointed correctly at the directory it was installed to/set. 
 
 Diagram page is well diagram's; will be made into PNG's eventually.
 
