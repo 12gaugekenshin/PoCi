@@ -323,10 +323,21 @@ Diagram 16: Advanced Math System Diagram
 
 Diagram 17: Super Compact Math Cycle Diagram
 
-s_t ----> L_t ----> ∇L_t ----> θ_{t+1}
- |                    ^
- |                    |
- +---- w_{t+1} <------+
+s_t → L_t → ∇L_t → θ_{t+1}
+  ↘
+    → w_{t+1}
+
+
+
+s_t  ------→  L_t  ------→  ∇L_t  ------→  θ_{t+1}
+  \                                           |
+   \------→  w_{t+1}  -------------------------+
+                  \                            |
+                   \----------------------------→ (feeds Loop 4)
+
+
+
+
 
 
 
