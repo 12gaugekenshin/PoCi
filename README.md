@@ -12,6 +12,7 @@ v3 — two models in comparison
 v4 — single agent, 100 events with some bad proofs
 v5 — two models, 100 events, one honest and one semi-honest
 v6 — 1000 events, one honest and one semi-honest
+
 To run; python must be installed. CMD, point CMD to wherever file is, type python poci_demov1.py , this will run the script if pointed correctly at the directory it was installed to/set. 
 
 Diagram page contains diagrams, which will be turned into PNGs later.
