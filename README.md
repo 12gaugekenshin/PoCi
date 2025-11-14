@@ -1,10 +1,16 @@
-Please read POCIv1d1, as this is the 50+ thesis paper on Proof Of Compute Integrity.
+*********************************************Please read POCIv1d1, as this is the 50+ thesis paper on Proof Of Compute Integrity.
+
 11-10-2025 is a semi-technical thesis. Was built and broadcasted as is. Ive since refined it to where the 50+ pages are now but this is a more professional summary than the READ.MD
+
 A shorter less technical not as professional summary is on README.MD
+
 POCI_demo 's are running working scripts to test locally to see the work. v1 is single model, v2 is mixed bad and good proofs, v3 two models in comparision, v4 single agent 100 event some bad proofs, v5 two model 100 event one honest and one semi-honest, v6 1000 events - one honest and one semi honest.
+
 Diagram page is well diagram's; will be made into PNG's eventually.
+
 Math is a short summary page on the mathmatical approach obviously.
-Approaches covers the reasoning for the angle we approached.
+
+Approaches covers the reasoning for the angle we approached. ********************************************************
 
 
 
