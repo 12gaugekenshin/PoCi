@@ -1,4 +1,13 @@
+## **OUTDATED PLEASE USE THE OTHER REPO - Proof Of Compute Integrity**
+
+
+
 **********************************************************************************************************************
+
+
+
+
+
 Please read POCIv1d1, as this is the full 50+ page thesis paper on Proof Of Compute Integrity.
 
 11-10-2025 is a semi-technical thesis. It was built and broadcasted live as the idea developed. I’ve since refined it into the current 50+ page version, but the 11-10-2025 document is still a more professional summary than the README.md.
